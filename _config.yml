@@ -1,0 +1,43 @@
+# Jekyll config para GitHub Pages — repo gympeak-legal
+#
+# Por qué este archivo: GitHub Pages renderiza Markdown con Jekyll por defecto,
+# pero los links relativos entre .md (p. ej. [Aviso médico](medical-disclaimer-es.md)
+# que aparecen en terms-of-service-es.md) NO funcionan a no ser que esté activo
+# el plugin `jekyll-relative-links`. Lo activamos aquí.
+
+title: GymPeak — Legal
+description: Public legal documents for the GymPeak iOS app
+url: https://gympeakapp.github.io
+baseurl: /gympeak-legal
+
+# Tema minimal sin chrome. El default "minima" añade header/footer que no
+# queremos en docs legales. Si quieres un look más cuidado, prueba
+# `theme: just-the-docs` (también soportado por GitHub Pages).
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+# Reescribe automáticamente [texto](archivo.md) → [texto](archivo.html)
+# al renderizar. Sin esto los cross-links entre Terms y Medical Disclaimer
+# devuelven 404 desde GitHub Pages.
+relative_links:
+  enabled: true
+  collections: true
+
+# Trata todos los .md sin front matter como páginas Jekyll renderizables
+# (necesario para que privacy-policy-es.md, etc. se sirvan en .html).
+optional_front_matter:
+  remove_originals: true
+
+# Incluye los .md en el sitio publicado.
+include:
+  - "*.md"
+
+# No publicar archivos internos si llegaran a colarse.
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
