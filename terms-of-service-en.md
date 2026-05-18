@@ -43,8 +43,8 @@ Access to the App requires a Premium subscription. Apple Inc. processes all purc
 
 | Plan | Price | Period |
 |---|---|---|
-| Premium Monthly | €6.99 | Month |
-| Premium Yearly | €39.99 | Year |
+| Premium Monthly | $6.99 | Month |
+| Premium Yearly | $39.99 | Year |
 
 Both plans include **7 days of free trial** on first purchase, managed by Apple as an `introductoryOffer`. If you cancel during the trial, no charge is made.
 
