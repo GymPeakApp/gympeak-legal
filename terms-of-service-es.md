@@ -43,8 +43,8 @@ Para acceder a la App es necesario contratar una suscripción premium. Apple Inc
 
 | Plan | Precio | Periodo |
 |---|---|---|
-| Premium Mensual | 6,99 € | Mes |
-| Premium Anual | 39,99 € | Año |
+| Premium Mensual | $3,99 | Mes |
+| Premium Anual | $19,99 | Año |
 
 Ambos planes incluyen **7 días de prueba gratuita** en la primera contratación, gestionados por Apple como `introductoryOffer`. Si cancelas durante el periodo de prueba, no se efectúa cargo alguno.
 
