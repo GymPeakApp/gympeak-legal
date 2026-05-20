@@ -7,8 +7,6 @@
 
 title: GymPeak — Legal
 description: Public legal documents for the GymPeak iOS app
-url: https://gympeakapp.github.io
-baseurl: /gympeak-legal
 
 # Tema minimal sin chrome. El default "minima" añade header/footer que no
 # queremos en docs legales. Si quieres un look más cuidado, prueba
